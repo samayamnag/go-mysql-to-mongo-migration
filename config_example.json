@@ -1,0 +1,30 @@
+{
+    "app": {
+        "name": "Migration",
+        "debug": true,
+        "env": "Production"
+    },
+    "database": {
+        "icmyc_mysql": {
+            "host": "localhost",
+            "username": "root",
+            "password": "",
+            "db_name": "ichangemycity_v4",
+            "port": 3306
+        },
+        "sm_mysql": {
+            "host": "localhost",
+            "username": "root",
+            "password": "",
+            "db_name": "swachh_manch",
+            "port": 3306
+        },
+        "mongo": {
+            "host": "localhost",
+            "username": "",
+            "password": "",
+            "db_name": "swachh_manch",
+            "port": 27017
+        }
+    }
+}
