@@ -83,8 +83,8 @@ func objectId2Hex(objectId interface{}) string {
 }
 
 func main() {
-	smDBSession, smDBErro := gorm.Open("mysql", "root:@/swachh_manch?charset=utf8mb4&parseTime=True&loc=Local")
-	icmycDBSession, icmycDBErro := gorm.Open("mysql", "root:@/ichangemycity_V4?charset=utf8mb4&parseTime=True&loc=Local")
+	smDBSession, smDBErro := gorm.Open("mysql", "nagesh:Welcome123!@tcp(localhost)/swachh_manch?charset=utf8mb4&parseTime=True&loc=Local")
+	icmycDBSession, icmycDBErro := gorm.Open("mysql", "nagesh:Welcome123!@tcp(localhost)/ichangemycity_v4?charset=utf8mb4&parseTime=True&loc=Local")
 	// Create Mongo client
 	mongoClient, smMongoDBErr := mongo.NewClient("mongodb://localhost:27017")
 

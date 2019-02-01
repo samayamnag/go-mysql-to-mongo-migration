@@ -16,7 +16,7 @@ cd <project_name>
 cp config_example.json config/config.json
 
 # Install Dependencies
-dep ensure
+go build .
 
 # Run Project
 go run main.go -fromId=xxx -toId=xxx
@@ -34,7 +34,7 @@ go get github.com/samayamnag/go-mysql-to-mongo-migration
 cd $GOPATH/src/github.com/go-mysql-to-mongo-migration
 
 # Install Dependencies
-dep ensure
+go build .
 
 
 # Run Project
